@@ -1,0 +1,1 @@
+const homeLogo = document.querySelector(".home_logo");

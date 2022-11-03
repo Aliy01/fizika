@@ -11,14 +11,17 @@
     height: 695px;
     background: rgb(124, 189, 243);
     display: flex;
+    justify-content: center;
 }
 
 #main .main-logo {
     position: relative;
     width: 30%;
     height: 50%;
+    justify-content: center;
+    top: 25%;
     background: rgba(255, 255, 255, .5);
-    margin: 12.5% 35%;
+    padding: 0px;
     font-size: 256px;
     justify-content: center;
     text-align: center;
@@ -28,34 +31,50 @@
 }
 
 #main .main-logo:hover {
-    min-width: 3%;
+    min-width: 0%;
     background: rgba(255, 255, 255, .5);
     animation: mainLogo 3s ease;
 }
 
 @keyframes mainLogo {
     0% {
-        opacity: 1;
+        min-height: 50%;
+        min-width: 30%;
+        top: 25%;
+        background: rgba(255, 255, 255, .9);
     }
     25% {
-        opacity: 2;
+        min-height: 53%;
+        min-width: 31%;
+        top: 23%;
+        background: rgba(255, 255, 255, .5);
     }
     50% {
-        opacity: 3;
+        min-height: 55%;
+        min-width: 33%;
+        top: 21%;
+        background: rgba(255, 255, 255, .1);
     }
     75% {
-        opacity: 2;
+        min-height: 53%;
+        min-width: 31%;
+        top: 23%;
+        background: rgba(255, 255, 255, .5);
     }
     100% {
-        opacity: 1;
+        min-width: 30%;
+        min-height: 50%;
+        top: 25%;
+        background: rgba(255, 255, 255, .9);
     }
 }
 
 #main .fa-f {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 40px;
-    color: rgba(196, 150, 50, 0.8);
+    color: rgb(18, 142, 243);
     border-color: #444;
     transition: .5s ease;
     animation: logo-p 5s infinite;
+    position: relative;
 }
