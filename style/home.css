@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home {
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 695px;
+    background: url(https://aspu.am/website/images/website/images/customs/Fizmat_2022.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home .navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, .4);
+    position: absolute;
+}
+
+#home .navbar:hover {
+    background: rgba(255, 255, 255, .6)
+}
+
+#home .home-logo {
+    position: relative;
+    top: -15px;
+    margin: auto 55px;
+    animation: logo-p 5s infinite;
+    color: rgba(121, 93, 10, 0.8);
+    font-size: 40px;
+}
+
+.nav {
+    position: relative;
+    top: -20px;
+    right: 100px;
+    justify-content: center;
+}
+
+#home a {
+    text-decoration: none;
+    margin: 25px;
+}
