@@ -211,7 +211,7 @@
 #home .container {
     position: relative;
     width: 80%;
-    height: 450px;
+    height: 750px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -257,19 +257,64 @@
     position: relative;
     background: url(../img/Atom.webp);
     background-position: top top;
+    background-repeat: no-repeat;
 }
 
 #home .news {
     width: 100%;
-    height: 500px;
-    position: relative;
-    display: flex;
+    height: 750px;
+    position: absolute;
+    background: rgba(100, 255, 255, .6);
 }
 
-#home .news .news-row {
-    position: relative;
+#home .slides {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+}
+
+.controller {
     width: 100%;
+    height: 475px;
+    position: absolute;
+    margin-top: 10px;
+    display: flex;
+    background: rgba(255, 255, 255, .6);
+    font-size: 210px;
+    color: rgba(12, 4, 4, 0.4);
+}
+
+.controller:hover {
+    color: rgba(12, 4, 4, 0.7);
+}
+
+.controller .fa-chevron-left {
+    position: relative;
+    left: 1px;
+    padding-top: 150px;
+}
+
+.controller .fa-chevron-right {
+    position: relative;
+    left: 1030px;
+    padding-top: 150px;
+}
+
+#home .news .container {
     height: 500px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+
+#home .news .row {
+    position: absolute;
+    margin: 0px 50px;
+    width: 90%;
+    height: 500px;
+}
+
+#home .news .row img {
+    height: 100%;
 }
