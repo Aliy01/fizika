@@ -8,11 +8,12 @@
     position: absolute;
     display: none;
     width: 100%;
-    height: 695px;
-    background: url(https://aspu.am/website/images/website/images/customs/Fizmat_2022.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    min-height: 1390px;
+    background: url(../img/2022-11-03_17-26-33.png);
+}
+
+#home .field {
+    width: 100%;
 }
 
 #home .navbar {
@@ -35,6 +36,10 @@
     animation: logo-p 5s infinite;
     color: rgba(121, 93, 10, 0.8);
     font-size: 40px;
+}
+
+#home .fa-f {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .nav {
