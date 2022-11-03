@@ -2,16 +2,28 @@
     0% {
         transform: rotateY(30deg);
     }
-    25% {
+    /* 12.5% {
         transform: rotateY(60deg);
     }
-    50% {
+    25% {
         transform: rotateY(90deg);
     }
-    75% {
+    37.5% {
         transform: rotateY(120deg);
     }
-    100% {
+    50% {
         transform: rotateY(150deg);
+    }
+    62.5% {
+        transform: rotateY(180deg);
+    }
+    75% {
+        transform: rotateY(210deg);
+    }
+    87.5% {
+        transform: rotateY(240deg);
+    } */
+    100% {
+        transform: rotateY(360deg);
     }
 }

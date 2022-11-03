@@ -17,15 +17,19 @@
     width: 30%;
     height: 50%;
     background: rgba(255, 255, 255, .5);
-    margin: 10% 35%;
+    margin: 12.5% 35%;
     font-size: 256px;
     justify-content: center;
     text-align: center;
     border-radius: 5px;
+    display: flex;
 }
 
-#main p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+#main .fa-f {
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    margin-top: 40px;
+    color: rgba(196, 150, 50, 0.8);
+    border-color: #444;
     transition: .5s ease;
-    animation: main-logo-p .5s infinite;
+    animation: main-logo-p 5s infinite;
 }
