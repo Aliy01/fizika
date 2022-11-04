@@ -81,10 +81,40 @@
 
 #footer {
     position: relative;
-    top: 845px;
+    top: 750px;
     width: 100%;
-    height: 200px;
-    text-align: center;
-    background: #999;
+    height: 55px;
+    background: #fff;
     display: none;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#footer .copyright {
+    position: absolute;
+    left: 350px;
+    top: 15px
+}
+
+#footer .copyrighter {
+    position: absolute;
+    top: 15px;
+    left: 550px;
+}
+
+.icons {
+    position: relative;
+    top: 5px;
+    text-align: right;
+    left: 300px;
+    font-size: 32px;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: rgb(124, 189, 243)
 }

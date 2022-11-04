@@ -1,4 +1,4 @@
-const btnMain = document.querySelector(".fa-f"),
+const btnMain = document.querySelector(".main-logo"),
     main = document.querySelector(".main"),
     home = document.querySelector(".home"),
     footer = document.querySelector(".footer");
