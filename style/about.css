@@ -1,3 +1,211 @@
 #about {
     display: none;
+    flex-direction: column;
+    overflow: hidden;
+    background: rgba(100, 255, 255, .6);
+}
+
+#about .main-feild {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: #fff;
+}
+
+#about h3 {
+    margin-left: 630px;
+    margin-top: 35px;
+    text-transform: uppercase;
+}
+
+#about h3::before {
+    top: 85px;
+}
+
+#about h3::after {
+    top: 85px;
+}
+
+#about p {
+    justify-content: center;
+    text-align: center;
+    margin-top: 105px;
+    margin: 105px 100px;
+    margin-bottom: 50px;
+}
+
+#about .submit {
+    margin: auto 575px;
+    width: 200px;
+}
+
+.show {
+    justify-content: center;
+    position: relative;
+}
+
+.hide {
+    display: none;
+}
+
+#about .informations {
+    width: 100%;
+    background: rgba(100, 255, 255, .6);
+    text-align: center;
+}
+
+#about .informations h3 {
+    font-size: 24px;
+    margin: 0;
+    padding-top: 35px;
+}
+
+#about .informations p {
+    margin: 0;
+    margin: 30px;
+}
+
+#about .information {
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(100, 255, 255, .6);
+}
+
+.information-body {
+    position: relative;
+    width: 70%;
+    height: 835px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(118, 248, 248, .1);
+    left: 25px;
+    border: .5px solid #000;
+}
+
+.content-head {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: rgba(100, 255, 255, .6);
+}
+
+.content-head label {
+    position: relative;
+    text-align: end;
+    top: 10px;
+    justify-content: end;
+}
+
+.content-head input {
+    position: relative;
+    width: 200px;
+}
+
+.content-body {
+    width: 100%;
+    position: relative;
+    top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content-body .row {
+    position: relative;
+    width: 30%;
+    height: 350px;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;
+    padding: 0px;
+    border: 1px solid #000;
+    background: #fff;
+}
+
+.content-body .row b {
+    position: relative;
+    font-size: 24px;
+    right: 40px;
+    top: 25px;
+}
+
+.content-body .row .text {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+}
+
+.content-body .row img {
+    position: relative;
+    top: 10px;
+    width: 150%;
+    height: 170px;
+}
+
+.content-body .row i {
+    position: relative;
+    left: 100px;
+    font-size: 18px;
+}
+
+.information-bar {
+    position: relative;
+    width: 25%;
+    height: 900px;
+    left: 40px;
+}
+
+.information-bar .row {
+    position: relative;
+    left: 12px;
+    width: 100%;
+    height: 835px;
+    border: 1px solid #000;
+    margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.information-bar .row p {
+    padding: 0;
+    margin: 0px;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.unit-items {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+}
+
+.unit-items .icons {
+    position: relative;
+    left: 0px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.unit-items .icons i {
+    position: relative;
+    top: -10px;
+    padding-top: 20px;
+    font-size: 24.5px;
+    padding: 45px;
+}
+
+.unit-items .unit-item p {
+    position: relative;
+    padding-top: 50px;
+    top: -30px;
+    text-transform: lowercase;
+    font-size: 24px;
 }

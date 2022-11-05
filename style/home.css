@@ -70,7 +70,7 @@ h3::after {
     color: #111;
 }
 
-#home .span:after {
+.span:after {
     content: " ";
     display: flex;
     flex-direction: column;
@@ -91,7 +91,7 @@ h3::after {
     flex-direction: column;
 }
 
-.home-main-feild {
+.main-feild {
     position: absolute;
     z-index: 9999;
     width: 100%;
@@ -114,7 +114,7 @@ h3::after {
     justify-content: center;
 }
 
-#home .submit {
+.submit {
     width: 20%;
     height: 40px;
     color: rgb(30, 152, 176);
@@ -127,12 +127,12 @@ h3::after {
     border-right: 1px solid rgb(30, 152, 176);
 }
 
-#home .submit a {
+.submit a {
     position: relative;
     top: 4px;
 }
 
-#home .submit::before {
+.submit::before {
     content: "";
     display: flex;
     position: relative;
@@ -143,7 +143,7 @@ h3::after {
     background: rgb(30, 152, 176);
 }
 
-#home .submit::after {
+.submit::after {
     content: " ";
     display: flex;
     position: relative;
@@ -153,7 +153,7 @@ h3::after {
     background: rgb(30, 152, 176);
 }
 
-#home .submit:hover {
+.submit:hover {
     background: #c0c0c0;
     cursor: pointer;
 }
@@ -170,28 +170,28 @@ h3::after {
     height: 350px;
 }
 
-#home .information {
+.information {
     width: 100%;
     height: 940px;
     position: relative;
     margin-top: 500px;
 }
 
-#home .information h3 {
+.information h3 {
     position: relative;
     padding: 25px;
     text-align: center;
     text-transform: uppercase;
 }
 
-#home .information p {
+.information p {
     position: relative;
     padding: 5px 55px;
     text-align: center;
     justify-content: center;
 }
 
-#home .container {
+.container {
     position: relative;
     width: 80%;
     height: 750px;
