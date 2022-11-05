@@ -88,7 +88,7 @@
     position: absolute;
     width: 100%;
     height: 50px;
-    background: rgba(100, 255, 255, .6);
+    background: rgba(255, 255, 255, .7);
 }
 
 .content-head label {
@@ -96,6 +96,7 @@
     text-align: end;
     top: 10px;
     justify-content: end;
+    left: 320px;
 }
 
 .content-head input {
@@ -103,13 +104,22 @@
     width: 200px;
 }
 
+.content-head .fa-table-cells-large {
+    position: relative;
+    font-size: 24px;
+    top: 10px;
+    left: -320px;
+}
+
 .content-body {
     width: 100%;
     position: relative;
-    top: 70px;
+    top: 50px;
+    height: 782.5px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background: rgba(255, 255, 255, .4);
 }
 
 .content-body .row {
@@ -158,54 +168,87 @@
     width: 25%;
     height: 900px;
     left: 40px;
+    top: -20px;
 }
 
 .information-bar .row {
     position: relative;
     left: 12px;
     width: 100%;
-    height: 835px;
-    border: 1px solid #000;
+    height: 365px;
+    border: .5px solid #000;
     margin-top: 0px;
     text-align: center;
     justify-content: center;
     background: #fff;
+    margin-top: 20px;
 }
 
-.information-bar .row p {
-    padding: 0;
-    margin: 0px;
-    font-size: 32px;
+.information-bar .row .title {
+    position: absolute;
+    font-size: 24px;
     text-transform: uppercase;
+    top: -30px;
+}
+
+.information-bar .row .title::before {
+    position: absolute;
+    top: 50px;
+    left: 85px;
+    content: " ";
+    width: 50%;
+    height: 1px;
+    background: rgb(30, 152, 176);
+}
+
+.information-bar .row .title::after {
+    position: absolute;
+    top: 50px;
+    left: 125px;
+    content: " ";
+    width: 25%;
+    height: 1px;
+    background: rgba(255, 255, 255, .7);
 }
 
 .unit-items {
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 0px;
 }
 
-.unit-items .icons {
+.unit-items .item {
     position: relative;
-    left: 0px;
-    font-size: 18px;
+    top: 50px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    left: 1px;
+    margin-top: 10px;
 }
 
-.unit-items .icons i {
-    position: relative;
-    top: -10px;
-    padding-top: 20px;
-    font-size: 24.5px;
-    padding: 45px;
+.unit-items .item:hover {
+    cursor: pointer;
+    transition: .5s ease;
+    color: #fff;
+    background: #c0c0c0;
 }
 
-.unit-items .unit-item p {
+.unit-items .item p,
+.unit-items .item i {
+    font-size: 17px;
+}
+
+.unit-items .item i {
     position: relative;
-    padding-top: 50px;
-    top: -30px;
-    text-transform: lowercase;
-    font-size: 24px;
+    top: 15px;
+    left: 15px;
+}
+
+.unit-items .item p {
+    position: relative;
+    top: -25px;
 }

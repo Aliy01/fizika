@@ -41,7 +41,7 @@ h3::after {
 }
 
 #home .navbar:hover {
-    background: rgba(255, 255, 255, .6)
+    background: rgba(255, 255, 255, .9);
 }
 
 #home .home-logo {
@@ -125,6 +125,7 @@ h3::after {
     text-align: center;
     border-left: 1px solid rgb(30, 152, 176);
     border-right: 1px solid rgb(30, 152, 176);
+    border-top: 1px solid rgb(30, 152, 176);
 }
 
 .submit a {
@@ -136,11 +137,12 @@ h3::after {
     content: "";
     display: flex;
     position: relative;
-    left: 0px;
+    left: 80%;
+    top: -1px;
     bottom: 0px;
-    width: 85px;
+    width: 25px;
     height: 1px;
-    background: rgb(30, 152, 176);
+    background: #ddd;
 }
 
 .submit::after {
