@@ -28,21 +28,16 @@ h3::after {
     position: relative;
     display: none;
     width: 100%;
-    min-height: 1390px;
-    background: #fff;
-}
-
-#home .field {
-    width: 100%;
+    flex-direction: column;
 }
 
 #home .navbar {
+    position: relative;
     width: 100%;
     height: 50px;
     display: flex;
     flex-direction: row;
     background: rgba(255, 255, 255, .4);
-    position: relative;
 }
 
 #home .navbar:hover {
@@ -90,8 +85,14 @@ h3::after {
     display: none;
 }
 
-.home-main-feild {
+#home .home-field {
+    width: 100%;
     position: relative;
+    flex-direction: column;
+}
+
+.home-main-feild {
+    position: absolute;
     z-index: 9999;
     width: 100%;
     height: 500px;
@@ -107,12 +108,19 @@ h3::after {
     left: 100px;
 }
 
+.field-left p {
+    position: relative;
+    left: 15px;
+    justify-content: center;
+}
+
 #home .submit {
     width: 20%;
     height: 40px;
     color: rgb(30, 152, 176);
     background: rgba(255, 255, 255, .1);
     position: absolute;
+    margin-left: 15px;
     justify-content: center;
     text-align: center;
     border-left: 1px solid rgb(30, 152, 176);
@@ -166,6 +174,7 @@ h3::after {
     width: 100%;
     height: 940px;
     position: relative;
+    margin-top: 500px;
 }
 
 #home .information h3 {
@@ -175,7 +184,7 @@ h3::after {
     text-transform: uppercase;
 }
 
-#home p {
+#home .information p {
     position: relative;
     padding: 5px 55px;
     text-align: center;
@@ -346,8 +355,8 @@ h3::after {
     position: relative;
     display: flex;
     flex-direction: column;
-    top: -25px;
-    font-size: 17px;
+    top: -10px;
+    font-size: 18px;
     text-align: center;
     justify-content: center;
 }
@@ -369,12 +378,21 @@ h3::after {
     z-index: 9999;
 }
 
+#home .right p {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin-top: 37px;
+    font-size: 16px;
+    top: -15px;
+}
+
 #home .plan .icons {
     position: relative;
     display: flex;
     flex-direction: column;
-    top: -20px;
-    left: 30px;
+    top: 5px;
+    left: 5px;
     font-size: 26.5px;
     color: rgb(30, 152, 176);
 }

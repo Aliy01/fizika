@@ -1,11 +1,14 @@
 const btnMain = document.querySelector(".main-logo"),
-    main = document.querySelector(".main"),
-    home = document.querySelector(".home"),
+    mainPage = document.querySelector(".main"),
+    homePage = document.querySelector(".home"),
     footer = document.querySelector(".footer");
+
 btnMain.addEventListener("click", () => {
-    main.style.display = "none"
-    home.style.display = "flex"
+    mainPage.style.display = "none"
+    homePage.style.display = "flex"
+    homePage.style.position = "relative"
     footer.style.display = "flex"
+
 
     // if (home.style.disply == flex) {
     //     main.style.position = "absolute"
