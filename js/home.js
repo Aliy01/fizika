@@ -1,5 +1,5 @@
 const homeLogo = document.querySelector(".home_logo"),
-    span = document.querySelector(".span"),
+    span = document.querySelectorAll(".span"),
     slideLeft = document.querySelector("fa-chevron-left"),
     slideRight = document.querySelector("fa-chevron-right"),
     // slideRow = document.getElementsByTagName(".row"),
@@ -9,12 +9,14 @@ const homeLogo = document.querySelector(".home_logo"),
     aboutPage = document.querySelector(".about"),
     navbar = document.querySelector(".navbar"),
     homeBbtn = document.querySelector(".home-btn"),
-    homeField = document.querySelector(".home-field");
+    homeField = document.querySelector(".home-field"),
+    iconBar = document.querySelector(".fa-bars");
 
 homeBbtn.addEventListener("click", () => {
     homeField.style.display = "flex"
     aboutPage.style.display = "none"
-    navbar.style.background = " #fff";
+    navbar.style.background = " #fff"
+    navbar.style.display = "flex";
 
     // navbar.style.flexDirection = "row"
 })

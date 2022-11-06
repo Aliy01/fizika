@@ -7,6 +7,7 @@ var btnMain = document.querySelector(".main-logo"),
 btnMain.addEventListener("click", function () {
   mainPage.style.display = "none";
   homePage.style.display = "flex";
+  navbar.style.display = "flex";
   homePage.style.position = "relative";
   footer.style.position = "relative";
   footer.style.display = "flex";

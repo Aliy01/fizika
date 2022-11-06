@@ -1,3 +1,8 @@
+#animation {
+    display: none;
+    width: 100%;
+}
+
 @keyframes logo-p {
     0% {
         transform: rotateY(30deg);
