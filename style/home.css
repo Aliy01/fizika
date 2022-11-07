@@ -503,9 +503,12 @@ h3::after {
     .information h3 {
         position: absolute;
         top: 20px;
-        left: 150px;
+        left: 30%;
         text-align: center;
         text-transform: uppercase;
+    }
+    .information h3::after {
+        left: 30%;
     }
     .information p {
         position: relative;
@@ -537,7 +540,7 @@ h3::after {
     }
     #home .news {
         width: 100%;
-        height: 550px;
+        height: 500px;
         position: relative;
         background: rgba(100, 255, 255, .6);
         margin-top: 1600px;
@@ -545,10 +548,13 @@ h3::after {
     #home .news h3 {
         position: absolute;
         top: -10px;
-        left: 100px;
+        left: 25%;
+    }
+    #home .news h3::before {
+        left: 10%;
     }
     #home .news h3:after {
-        left: 80px;
+        left: 30%;
     }
     #home .news p {
         top: 55px;
@@ -556,21 +562,21 @@ h3::after {
     #home .slides {
         display: flex;
         flex-direction: row;
-        height: 300px;
+        height: 500px;
         position: relative;
     }
     .controller {
         display: none;
     }
     #home .news .container {
-        height: 425px;
+        height: 400px;
     }
     #home .news .row {
         position: absolute;
         margin: 0;
         padding: 0;
         width: 100%;
-        height: 425px;
+        height: 400px;
         border: 0px;
         border-radius: 0px;
         left: 0px;
@@ -579,12 +585,11 @@ h3::after {
     #home .news .row img {
         position: relative;
         height: 100%;
-        border-radius: 25px;
     }
     #home .plan {
         width: 97%;
         height: 500px;
-        margin-top: 2100px;
+        margin-top: 2000px;
         border: 1px solid #000;
         border-radius: 25px;
         display: flex;
@@ -594,26 +599,26 @@ h3::after {
     #home .plan h3 {
         position: relative;
         padding: 10px;
-        left: 5%;
+        left: 2%;
         text-align: center;
         text-transform: uppercase;
     }
     #home .plan h3::before {
         content: " ";
-        width: 50%;
+        width: 40%;
         height: 1px;
         position: absolute;
         top: 45px;
-        left: 80px;
+        left: 30%;
         background: rgb(30, 152, 176);
     }
     #home .plan h3::after {
         content: " ";
-        width: 30%;
+        width: 20%;
         height: 1px;
         position: absolute;
         top: 45px;
-        left: 110px;
+        left: 40%;
         background: rgba(255, 255, 255, .7);
     }
     #home .plan-left {
@@ -651,10 +656,9 @@ h3::after {
     }
     #home .right p {
         position: relative;
-        margin-top: 7.5px;
+        margin-top: 45px;
         font-size: 12px;
-        top: -5px;
-        margin-top: 25px;
+        top: -20px;
     }
     #home .plan .icons {
         position: relative;
