@@ -115,7 +115,7 @@
     color: rgb(124, 189, 243)
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1089px) {
     #main {
         width: 100%;
         height: 100%;
@@ -142,7 +142,7 @@
     #footer .copyrighter {
         position: absolute;
         top: 55px;
-        left: 25%;
+        left: 15%;
     }
     .icons {
         position: relative;
