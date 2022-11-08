@@ -1,0 +1,131 @@
+#contactDev {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 695px;
+    background: rgba(42, 41, 41, 0.413);
+    overflow: hidden;
+}
+
+#contactDev .field {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+
+#contactDev h3 {
+    position: relative;
+    top: 85px;
+    left: 570px;
+}
+
+#contactDev h3::before {
+    top: 50px;
+    left: 0px;
+    width: 100%;
+}
+
+#contactDev h3::after {
+    top: 50px;
+    left: 50px;
+    width: 50%;
+}
+
+#contactDev .close {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 1000px;
+}
+
+#contactDev .fa-close {
+    position: relative;
+    top: 15px;
+    left: 27.5px;
+    text-align: center;
+    justify-content: center;
+    font-size: 64px;
+    opacity: .5;
+}
+
+#contactDev .close:hover {
+    opacity: .7;
+    color: #c0c0c0;
+    background: rgba(42, 41, 41, 0.5);
+}
+
+#contactDev .content {
+    position: relative;
+    width: 450px;
+    height: 350px;
+    background: #fff;
+    top: 170px;
+    left: 140px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, .3);
+}
+
+#contactDev .box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#contactDev .row {
+    width: 45%;
+}
+
+#contactDev .row p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+#contactDev .row ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#contactDev .row ul p {
+    font-size: 18px;
+    padding: 5px;
+}
+
+#contactDev .row i {
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+#contactDev img {
+    width: 130px;
+    height: 150px;
+    margin: 25px;
+    border-radius: 50px;
+}
+
+#contactDev .devinfo {
+    margin: 5px 30px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+#contactDev .icon {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#contactDev .icon a {
+    text-decoration: none;
+}
+
+#contactDev .telegram {
+    margin-left: 0px;
+}
+
+#contactDev .instagram {
+    margin-left: 30px;
+}

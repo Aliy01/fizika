@@ -17,14 +17,19 @@ homeBbtn.addEventListener("click", function () {
   homeField.style.display = "flex";
   aboutPage.style.display = "none";
   navbar.style.background = " #fff";
-  navbar.style.display = "flex"; // navbar.style.flexDirection = "row"
+  navbar.style.display = "flex";
+  animation.style.display = "none";
+  footer.style.top = "0px"; // navbar.style.flexDirection = "row"
 });
 aboutBtn.addEventListener("click", function () {
   aboutPage.style.display = "flex";
   homeField.style.display = "none";
   navbar.style.display = "flex";
   navbar.style.background = " rgba(100, 255, 255, .6)";
-  aboutPage.style.flexDirection = "column"; // navbar.style.flexDirection = "column"
+  aboutPage.style.flexDirection = "column";
+  animation.style.display = "none";
+  fieldDev.style.display = "none";
+  footer.style.top = "0px"; // navbar.style.flexDirection = "column"
   // navbar.style.width = 20 + "px"
   // navbar.style.height = 500 + "px"
 });

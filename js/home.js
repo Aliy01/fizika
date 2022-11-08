@@ -17,6 +17,8 @@ homeBbtn.addEventListener("click", () => {
     aboutPage.style.display = "none"
     navbar.style.background = " #fff"
     navbar.style.display = "flex";
+    animation.style.display = "none"
+    footer.style.top = "0px"
 
     // navbar.style.flexDirection = "row"
 })
@@ -26,6 +28,9 @@ aboutBtn.addEventListener("click", () => {
     navbar.style.display = "flex"
     navbar.style.background = " rgba(100, 255, 255, .6)";
     aboutPage.style.flexDirection = "column"
+    animation.style.display = "none"
+    fieldDev.style.display = "none"
+    footer.style.top = "0px"
         // navbar.style.flexDirection = "column"
         // navbar.style.width = 20 + "px"
         // navbar.style.height = 500 + "px"

@@ -11,6 +11,7 @@ btnMain.addEventListener("click", () => {
     footer.style.position = "relative"
     footer.style.display = "flex"
     footer.style.top = (-1) * 0 + "px"
+    fieldDev.style.display = "none"
 
     // if (home.style.disply == flex) {
     //     main.style.position = "absolute"
